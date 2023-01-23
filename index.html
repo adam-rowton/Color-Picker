@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- end fonts -->
+</head>
+
+<body>
+    <header>
+
+        <div id="color-preview-box"></div>
+
+
+        <div id="selector-group">
+            <!-- <label for="colors">Select a color scheme</label> -->
+            <select name="color-selector" id="color-selector">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+            
+        </select>
+        </div>
+
+        <button id="get-colors-btn">Get Color Scheme</button>
+
+
+    </header>
+
+
+
+    <main>
+        <div id="color-display-grid">
+            <div id="box-1" class="color"></div>
+            <div id="box-2" class="color"></div>
+            <div id="box-3" class="color"></div>
+            <div id="box-4" class="color"></div>
+            <div id="box-5" class="color"></div>
+        </div>
+
+
+
+
+        <div id="hex-codes-container">
+            <div class="hex-code">hex value</div>
+            <div class="hex-code">hex value</div>
+            <div class="hex-code">hex value</div>
+            <div class="hex-code">hex value</div>
+            <div class="hex-code">hex value</div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
+
+
+
+<!-- Alternate main content structure? 
+    
+    
+    
+    <main>
+        <div id="color-display-grid">
+            <div class="color-container" id="color-row-1">
+                <div class="color-box" id="color-1"></div>
+                <div class="hex=value" id="hex-color-1">hex value</div>
+            </div>
+            <div class="color-container" id="color-row-2">
+                <div class="color-box" id="color-2"></div>
+                <div class="hex=value" id="hex-color-2">hex value</div>
+            </div>
+            <div class="color-container" id="color-row-3">
+                <div class="color-box" id="color-3"></div>
+                <div class="hex=value" id="hex-color-3">hex value</div>
+            </div>
+            <div class="color-container" id="color-row-4">
+                <div class="color-box" id="color-4"></div>
+                <div class="hex=value" id="hex-color-4">hex value</div>
+            </div>
+
+            <div class="color-container" id="color-row-5">
+                <div class="color-box" id="color-5"></div>
+                <div class="hex=value" id="hex-color-5">hex value</div>
+            </div>
+        </div> -->
