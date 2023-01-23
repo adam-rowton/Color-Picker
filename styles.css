@@ -1,0 +1,60 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    body {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: .75fr 6fr;
+    }
+    /* header section */
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 2fr;
+        grid-gap: 1rem;
+        padding: 1em;
+        width: 100vw;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    
+    #color-selector {
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+        padding: 0 .5rem;
+    }
+    
+    #color-preview-box {
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
+    /* main content/color display */
+    
+    main {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+    }
+    
+    #color-display-grid {
+        display: grid;
+    }
+    
+    .color {
+        background-color: orange;
+    }
+    
+    #hex-codes-container {
+        display: grid;
+    }
+    
+    .hex-code {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
